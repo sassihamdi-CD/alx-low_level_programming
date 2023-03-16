@@ -1,9 +1,13 @@
 #include <stdio.h>
 
-/* function print a string */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-void main(void){
+int main(void){
 
-	printf("with proper grammar, but the outcome is a piece of art");
-	retrun (0);
+	printf("with proper grammar, but the outcome is a piece of art");/* function print a string */
+	retrun (0); 
 }
