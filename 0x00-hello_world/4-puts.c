@@ -2,7 +2,6 @@
 
 void main(){
 	
-	puts("Programming is like building a multilingual puzzle"/n);
+	puts("Programming is like building a multilingual puzzlee\n");
 
-	return 0;
 }
