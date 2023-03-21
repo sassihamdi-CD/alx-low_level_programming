@@ -1,8 +1,10 @@
-//This is a header files
-#include <stdio.h>
+#include "main.h"
 
-/*The program should return 0 */
-int main(void)
+/**
+ * main - print _putchar
+ * Return: 0 if succesful
+ */
+int main(void))
 {
 	_putchar('_');
 	_putchar('p');
@@ -12,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('\n');
+
 	return (0);
 } 
-
