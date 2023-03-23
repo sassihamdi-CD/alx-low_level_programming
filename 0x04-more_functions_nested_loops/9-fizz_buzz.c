@@ -4,7 +4,6 @@
  * main - print square of n size
  * Return: 0 if succesful
  */
-
 int main(void)
 {
 	int x;
