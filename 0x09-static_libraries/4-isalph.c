@@ -17,9 +17,3 @@ else if (c >= 'A' && c <= 'Z')
 i = 1;
 return (i);
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-
