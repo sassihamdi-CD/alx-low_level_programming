@@ -1,57 +1,41 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * _strlen - size of string
- * @str: string to get size of
- * Return: size of string
- */
-int _strlen(const char *str)
-{
-	int i;
-
-	for (i = 0; str[i]; i++)
-		;
-
-	return (i);
-}
-/**
- * add_node_end - adds a new node at the end of a list_t list
- * @head: struct list_t, node
- * @str: needs to be duplicated
- * Return: new list_t
+ * add_node_end - adds a new node at the end
+ * of a list_t list.
+ * @head: head of the linked list.
+ * @str: string to store in the list.
+ * Return: address of the new element, or NULL if it failed
  */
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new, *last;
-	char *string = strdup(str);
-
-	if (!string)
-		return (NULL);
+	list_t *new, *temp;
+	size_t n;
 
 	new = malloc(sizeof(list_t));
-	if (!new)
-	{
-		free(string);
+	if (new == NULL)
 		return (NULL);
-	}
 
-	new->str = string;
-	new->len = _strlen(string);
-	new->next = NULL;
+	new->str = strdup(str);
 
-	if (*head == NULL)
-	{
-		*head = new;
-		return (new);
-	}
-
-	for (last = *head; last->next != NULL; last = last->next)
+	for (n = 0; str[n]; n++)
 		;
 
-	last->next = new;
-	return (new);
+	new->len = n;
+	new->next = NULL;
+	temp = *head;
+
+	if (temp == NULL)
+	{
+		*head = new;
+	}
+	else
+	{
+		while (temp->next != NULL)
+			temp = temp->next;
+		temp->next = new;
+	}
+
+	return (*head);
 }
