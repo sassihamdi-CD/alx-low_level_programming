@@ -89,7 +89,7 @@ int main(void)
     return (0);
 }
 julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_list.c -o a
-julien@ubuntu:~/0x12. Singly linked lists$ ./a 
+julien@ubuntu:~/0x12. Singly linked lists$ ./a
 [5] Hello
 [5] World
 -> 2 elements
@@ -97,7 +97,5 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./a
 [0] (nil)
 [5] World
 -> 2 elements
-julien@ubuntu:~/0x12. Singly linked lists$ 
-'''
-
+julien@ubuntu:~/0x12. Singly linked lists$
 
