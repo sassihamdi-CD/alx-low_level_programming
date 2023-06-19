@@ -37,3 +37,4 @@ Create the dynamic library `libdynamic.so` containing the provided functions.
 
 ### 1. Without libraries, what have we? We have no past and no future
 Create a script `1-create_dynamic_lib.sh` that creates a dynamic library `liball.so` from all the `.c` files in the current directory.
+
