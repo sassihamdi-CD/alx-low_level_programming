@@ -83,6 +83,3 @@ int main(void)
 
     return (EXIT_SUCCESS);
 }
-
-## Author
-[Sassi Hamdi](www.twitter.com/sassi_hamdi_)
