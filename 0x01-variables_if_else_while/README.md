@@ -1,16 +1,18 @@
-# Project 0x01 - C - Variables, if, else, while
+## 0x01-variables_if_else_while
 
-+ Task 0 - assign a random number to variable n each time it is executed and prints out whether the number stored in the n variable is positive or negative 
-+ Task 1 - print the last digit of a random number 
-+ Task 2 - print alphabet in lowercase using putchar 
-+ Task 3 - print alphabet lower then upper case using putchar 
-+ Task 4 - print alphabet in lowercase except q and e using putchar 
-+ Task 5 - print all single digit numbers of base 10 starting from 0 
-+ Task 6 - print all single digit numbers not using variable char and using putchar 
-+ Task 7 - print the alphabet backwards using putchar 
-+ Task 8 -print all the numbers of base 16 in lowercase 
-+ Task 9 - write program that prints 0 - 9 using max 4 putchars comma separated 
-+ Task 10 - write program that prints the numbers 00 to 99 using max 5 putchars comma separated Adv. 
-+ Task 11 - print all two digit combinations of 0-9 the two digits must be different and 01 and 10 are considered the same only use putchar Adv. 
-+ Task 12 - Adv. 
-+ Task 13 -
+This directory covers the basics of variables and control flow statements in C, such as if-else statements and loops.
+
+### Files
+- **0-positive_or_negative.c**: A C program that determines if a randomly generated number is positive, negative, or zero.
+- **1-last_digit.c**: A C program that prints the last digit of a randomly generated number and whether it is greater than 5, less than 6, or 0.
+- **2-print_alphabet.c**: A C program that prints the alphabet in lowercase, followed by a new line.
+- **3-print_alphabets.c**: A C program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+- **4-print_alphabt.c**: A C program that prints the alphabet in lowercase, except for the letters 'q' and 'e', followed by a new line.
+- **5-print_numbers.c**: A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+- **6-print_numberz.c**: A C program that prints all single digit numbers of base 10 starting from 0, followed by a new line, using only the `putchar` function.
+- **7-print_tebahpla.c**: A C program that prints the lowercase alphabet in reverse, followed by a new line.
+- **8-print_base16.c**: A C program that prints all the numbers of base 16 in lowercase, followed by a new line.
+- **9-print_comb.c**: A C program that prints all possible combinations of single-digit numbers, separated by ", ".
+- **100-print_comb3.c**: A C program that prints all possible different combinations of two digits, separated by ", ".
+- **101-print_comb4.c**: A C program that prints all possible different combinations of three digits, separated by ", ".
+- **102-print_comb5.c**: A C program that prints all possible combinations of two two-digit numbers, separated by ", ".
