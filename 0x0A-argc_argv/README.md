@@ -1,8 +1,11 @@
-# 0x0A C - argc, argv
+## 0x0A-argc_argv
 
-+ Task 0 - print programs named followed by a new line 
-+ Task 1 - print number of arguments passed into it 
-+ Task 2 - print all arguments it receives 
-+ Task 3 - program that multiplies two numbers 
-+ Task 4 - program that adds positive numbers 
-+ Task 5 - program that prints the minimum number of coins to make a change for an amount of money
+This directory covers the use of command-line arguments in C programs.
+
+### Files
+- **0-whatsmyname.c**: A C program that prints its name, followed by a new line.
+- **1-args.c**: A C program that prints the number of arguments passed into it.
+- **2-args.c**: A C program that prints all arguments it receives.
+- **3-mul.c**: A C program that multiplies two numbers.
+- **4-add.c**: A C program that adds positive numbers.
+- **100-change.c**: A C program that prints the minimum number of coins to make change for an amount of money.
