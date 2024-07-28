@@ -1,15 +1,13 @@
-# 0x06 C - More pointers, arrays and strings
+## 0x06-pointers_arrays_strings
 
-+ Task 0 - write a function that convatenates two strings (strcat) 
-+ Task 1 - write a function that convatenates two strings to n bytes (strncat) 
-+ Task 2 - function that copies a string (strncpy) 
-+ Task 3 - function that compares two strings (strcmp) 
-+ Task 4 - Reverse an integer array 
-+ Task 5 - turn all letters into uppercase 
-+ Task 6 - capitalize all words 
-+ Task 7 - encode string into 1337 
-+ Task 8 - encode and decode rot13 
-+ Task 9 - function that prints an integer using putchar 
-+ Task 10 - add one line to specific code to change a[2] = 98 
-+ Task 11 - 
-+ Task 12 -
+This directory continues the exploration of pointers, arrays, and strings, with a focus on more advanced concepts and techniques.
+
+### Files
+- **0-strcat.c**: A C program that concatenates two strings.
+- **1-strncat.c**: A C program that concatenates two strings, using at most `n` bytes from `src`.
+- **2-strncpy.c**: A C program that copies a string.
+- **3-strcmp.c**: A C program that compares two strings.
+- **4-rev_array.c**: A C program that reverses the content of an array of integers.
+- **5-string_toupper.c**: A C program that changes all lowercase letters of a string to uppercase.
+- **6-cap_string.c**: A C program that capitalizes all words of a string.
+- **7-leet.c**: A C program that encodes a string into 1337 (leet speak).
