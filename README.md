@@ -53,7 +53,7 @@ Throughout these projects, I have developed a range of skills, including:
 Each directory contains a README file with detailed instructions and descriptions of the tasks and exercises. Navigate to the respective directory to explore the projects and their contents.
 
 ## Contact
-For any questions or feedback, feel free to reach out to me at [your email address].
+For any questions or feedback, feel free to reach out to me at [hamdysassy7@gmail.com].
 
 ---
 
