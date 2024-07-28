@@ -4,7 +4,7 @@ This repository contains a collection of projects and exercises covering various
 
 Each project is contained within its own directory and contains a set of tasks or exercises to complete. The projects build on one another, with later projects exploring more advanced concepts and techniques.
 
-Projects
+## Projects
 This repository contains a collection of introductory and advanced programs in C, covering a wide range of topics in low-level programming.
 
 The following is a list of the projects contained in this repository, along with a brief description of their contents:
